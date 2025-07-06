@@ -205,7 +205,7 @@ Purpose: To credit multiple contributors to a single commit.
 Example:
 
 ```
-Co-authored-by: Jane Doe <jane.doe@example.com>
+Co-authored-by: Jane Doe <jane.doe(AT)example.com>
 ```
 
 ##### Reviewed-by
@@ -214,7 +214,7 @@ Purpose: To acknowledge the person who reviewed the commit.
 Example:
 
 ```
-Reviewed-by: John Smith <john.smith@example.com>
+Reviewed-by: John Smith <john.smith(AT)example.com>
 ```
 
 ##### Signed-off-by
@@ -223,7 +223,7 @@ Purpose: To indicate that the commit complies with the project’s contribution 
 Example:
 
 ```
-Signed-off-by: Alice Johnson <alice.johnson@example.com>
+Signed-off-by: Alice Johnson <alice.johnson(AT)example.com>
 ```
 
 ##### See also
