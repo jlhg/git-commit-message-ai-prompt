@@ -32,7 +32,7 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 ### Single Type Changes
 
 ```
-<emoji> <type>(<scope>): <description>
+<type>(<scope>): <description>
 <BLANK LINE>
 [optional <body>]
 <BLANK LINE>
@@ -42,19 +42,19 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 ### Multiple Type Changes
 
 ```
-<emoji> <type>(<scope>): <description>
+<type>(<scope>): <description>
 <BLANK LINE>
 [optional <body> of type 1]
 <BLANK LINE>
 [optional <footer(s)> of type 1]
 <BLANK LINE>
 <BLANK LINE>
-<emoji> <type>(<scope>): <description>
+<type>(<scope>): <description>
 <BLANK LINE>
 [optional <body> of type 2]
 <BLANK LINE>
 [optional <footer(s)> of type 2]
-<emoji> <type>(<scope>): <description>
+<type>(<scope>): <description>
 <BLANK LINE>
 [optional <body> of type 3]
 <BLANK LINE>
@@ -63,20 +63,20 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 
 ## Type Reference
 
-| Type     | Title                    | Emoji | Description                                                                                            | Example Scopes (non-exaustive)                                |
-| -------- | ------------------------ | ----- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
-| build    | Builds                   | 🏗️    | Changes that affect the build system or external dependencies                                          | gulp, broccoli, npm                                           |
-| chore    | Chores                   | 🔧    | Other changes that don't modify src or test files                                                      | scripts, config                                               |
-| ci       | Continuous Integrations  | 👷    | Changes to our CI configuration files and scripts                                                      | Travis, Circle, BrowserStack, SauceLabs,github actions, husky |
-| docs     | Documentation            | 📝    | Documentation only changes                                                                             | README, API                                                   |
-| feat     | Features                 | ✨    | A new feature                                                                                          | user, payment, gallery                                        |
-| fix      | Bug Fixes                | 🐛    | A bug fix                                                                                              | auth, data                                                    |
-| perf     | Performance Improvements | ⚡️   | A code change that improves performance                                                                | query, cache                                                  |
-| refactor | Code Refactoring         | ♻️    | A code change that neither fixes a bug nor adds a feature                                              | utils, helpers                                                |
-| revert   | Reverts                  | ⏪️   | Reverts a previous commit                                                                              | query, utils,                                                 |
-| style    | Styles                   | 💄    | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) | formatting                                                    |
-| test     | Tests                    | ✅    | Adding missing tests or correcting existing tests                                                      | unit, e2e                                                     |
-| i18n     |                          | 🌐    | Internationalization                                                                                   | locale, translation                                           |
+| Type     | Title                    | Description                                                                                            | Example Scopes (non-exaustive)                                |
+| -------- | ------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| build    | Builds                   | Changes that affect the build system or external dependencies                                          | gulp, broccoli, npm                                           |
+| chore    | Chores                   | Other changes that don't modify src or test files                                                      | scripts, config                                               |
+| ci       | Continuous Integrations  | Changes to our CI configuration files and scripts                                                      | Travis, Circle, BrowserStack, SauceLabs,github actions, husky |
+| docs     | Documentation            | Documentation only changes                                                                             | README, API                                                   |
+| feat     | Features                 | A new feature                                                                                          | user, payment, gallery                                        |
+| fix      | Bug Fixes                | A bug fix                                                                                              | auth, data                                                    |
+| perf     | Performance Improvements | A code change that improves performance                                                                | query, cache                                                  |
+| refactor | Code Refactoring         | A code change that neither fixes a bug nor adds a feature                                              | utils, helpers                                                |
+| revert   | Reverts                  | Reverts a previous commit                                                                              | query, utils,                                                 |
+| style    | Styles                   | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) | formatting                                                    |
+| test     | Tests                    | Adding missing tests or correcting existing tests                                                      | unit, e2e                                                     |
+| i18n     |                          | Internationalization                                                                                   | locale, translation                                           |
 
 ## More information about types
 
@@ -132,7 +132,7 @@ This type is used for commits that involve changes related to internationalizati
 
 ### Subject Line
 
-Format: `<emoji> <type>[optional (<scope>)]: <description>`
+Format: `<type>[optional (<scope>)]: <description>`
 
 - Scope must be in English
 - Imperative mood
@@ -239,12 +239,11 @@ See also #321
 
 1. Output ONLY the commit message
 2. Write ONLY in English
-3. ALWAYS add the emoji to the beginning of first line
-4. NO additional text or explanations
-5. NO questions or comments
-6. NO formatting instructions or metadata
-7. RESPECT the maximum number of 100 characters per line
-8. DO NOT wrap the output in any special characters or delimiters such as ```
+3. NO additional text or explanations
+4. NO questions or comments
+5. NO formatting instructions or metadata
+6. RESPECT the maximum number of 100 characters per line
+7. DO NOT wrap the output in any special characters or delimiters such as ```
 
 ## Examples
 
