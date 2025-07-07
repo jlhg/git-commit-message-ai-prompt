@@ -138,17 +138,18 @@ Format: `<type>[optional (<scope>)]: <description>`
 - Imperative mood
 - No capitalization
 - No period at the end
-- Maximum of 100 characters per line including any spaces or special characters
+- Maximum of 80 characters per line including any spaces or special characters
 - Must be in English
 
 ### Body
 
 - Bullet points with "-"
-- Maximum of 100 characters per line including any spaces or special characters
-- Bullet points that exceed the 100 characters per line count should use line breaks without adding extra bullet points
+- Maximum of 80 characters per line including any spaces or special characters
+- Bullet points that exceed the 80 characters per line count should use line breaks without adding extra bullet points
 - Explain what and why
 - Be objective
 - Must be in English
+- Must use capitalization
 - Use【】for different types
 
 ### Footer
@@ -156,7 +157,7 @@ Format: `<type>[optional (<scope>)]: <description>`
 Format:
 `<token>: <value>`
 
-- Maximum of 100 characters per line
+- Maximum of 80 characters per line
 
 ### Types of Footer
 
@@ -263,10 +264,10 @@ n });
 
 OUTPUT:
 
-♻️ refactor(server): optimize server port configuration
+refactor(server): optimize server port configuration
 
-- rename port variable to uppercase (PORT) to follow constant naming convention
-- add environment variable port support for flexible deployment
+- Rename port variable to uppercase (PORT) to follow constant naming convention
+- Add environment variable port support for flexible deployment
 
 ### Example 2
 
@@ -288,9 +289,9 @@ index af76bc0..781d472 100644
   "lint:debug": "eslint . --debug",
 
 OUTPUT:
-🔧 chore: update lint-staged script to use mjs config file
+chore: update lint-staged script to use mjs config file
 
-- change lint-staged script command to use lint-staged.config.mjs instead of lint-staged.config.ts
+- Change lint-staged script command to use lint-staged.config.mjs instead of lint-staged.config.ts
 
 ## IMPORTANT
 
