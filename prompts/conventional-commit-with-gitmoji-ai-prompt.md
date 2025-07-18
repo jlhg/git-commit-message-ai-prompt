@@ -146,14 +146,14 @@ Format: `<type>[optional (<scope>)]: <description>`
 - Imperative mood
 - No capitalization
 - No period at the end
-- Maximum of 80 characters per line including any spaces or special characters
+- Maximum of 72 characters per line including any spaces or special characters
 - Must be in English
 
 ### Body
 
 - Bullet points with "-"
-- Maximum of 80 characters per line.
-- If a bullet point exceeds 80 characters, wrap the text to the next line and indent it with two spaces. Do NOT start the wrapped line with a new "-".
+- Maximum of 72 characters per line.
+- If a bullet point exceeds 72 characters, wrap the text to the next line and indent it with two spaces. Do NOT start the wrapped line with a new "-".
 - Explain what and why
 - Be objective
 - Must be in English
@@ -161,7 +161,7 @@ Format: `<type>[optional (<scope>)]: <description>`
 
 #### Correct Wrapping Example:
 
-- This is a very long sentence that exceeds the 80-character limit
+- This is a very long sentence that exceeds the 72-character limit
   and has been correctly wrapped to the next line with an indent.
 
 #### Incorrect Wrapping Example:
@@ -174,7 +174,7 @@ Format: `<type>[optional (<scope>)]: <description>`
 Format:
 `<token>: <value>`
 
-- Maximum of 80 characters per line
+- Maximum of 72 characters per line
 
 ### Types of Footer
 
